@@ -46,14 +46,13 @@ def show_course_info():
             btn_class = elem.get_attribute('class')   # class implies state
             if btn_class == 'select-course':
                 print u'该课程未选'
-                elem.click()
-                alert = browser.switch_to.alert
-                print alert.text
-                alert.accept()
-                break
+                # elem.click()
+                # alert = browser.switch_to.alert
+                # print alert.text
+                # alert.accept()
             elif btn_class == 'unselect-course':
                 print u'该课程已选'
-            # elem.click()  # select or unselect course
+                # elem.click()  # select or unselect course
             i += 1
         except:
             break
