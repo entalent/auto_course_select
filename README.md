@@ -1,15 +1,16 @@
 # auto_course_select
-A python program for selecting course automatically on http://grdms.bit.edu.cn , based on selenium
+A python program for selecting course automatically on http://grdms.bit.edu.cn , based on Selenium
+可以在 http://grdms.bit.edu.cn 自动选课的工具
 
 ### Dependencies & Requirements
 1. Windows 7/8/8.1/10, 32-bit or 64-bit
 2. Python 2.7
-3. Selenium python bindings (http://selenium-python.readthedocs.io/), can be installed with <p> pip install selenium </p>
-4. Internet Explorer driver for Selenium (can be downloaded from (http://www.seleniumhq.org/download/))
+3. Selenium python bindings (http://selenium-python.readthedocs.io/), 可以用 <p> pip install selenium </p> 命令安装
+4. Internet Explorer driver for Selenium (可以从 http://www.seleniumhq.org/download/ 下载)，需要在系统的PATH环境变量里面或者和auto.py处于同一目录下
 
 ### Notes
-1. Please refer to (https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver#required-configuration) to configure your Internet Explorer correctly.
-2. The program will always open a new IE window after program is started. Please keep the IE window always have focus while the program is running. (https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver#browser-focus)
+1. 请参考 (https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver#required-configuration) 正确地配置IE浏览器
+2. 程序每次启动都会打开一个新的IE窗口，脚本运行时请尽量保持这个窗口有焦点 参考：(https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver#browser-focus)
 
 ### Disclaimer
 1. 我是在实验室的小伙伴换课的时候课被别人抢了，实在看不下去才写了这个
