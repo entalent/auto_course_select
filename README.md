@@ -5,8 +5,8 @@ A python program for selecting course automatically on http://grdms.bit.edu.cn ,
 ### Dependencies & Requirements
 1. Windows 7/8/8.1/10, 32-bit or 64-bit
 2. Python 2.7
-3. Selenium python bindings (http://selenium-python.readthedocs.io/), 可以用 <p> pip install selenium </p> 命令安装
-4. Internet Explorer driver for Selenium (可以从 http://www.seleniumhq.org/download/ 下载)，需要在系统的PATH环境变量里面或者和auto.py处于同一目录下
+3. Selenium python bindings (http://selenium-python.readthedocs.io/), 可以用```pip install selenium```命令安装
+4. Internet Explorer driver for Selenium (可以从 http://www.seleniumhq.org/download/ 下载)，IEDriverServer.exe 需要在系统的PATH环境变量里面或者和auto.py处于同一目录下
 
 ### Notes
 1. 请参考 (https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver#required-configuration) 正确地配置IE浏览器
