@@ -5,7 +5,11 @@ A python program for selecting course automatically on http://grdms.bit.edu.cn ,
 1. Windows 7/8/8.1/10, 32-bit or 64-bit
 2. Python 2.7
 3. Selenium python bindings (http://selenium-python.readthedocs.io/), can be installed with <p> pip install selenium </p>
-4. Internet Explorer driver for Selenium (x64 binary (v3.5.1) and x86 binary (v3.5.0) are attached to this repo)
+4. Internet Explorer driver for Selenium (can be downloaded from (http://www.seleniumhq.org/download/))
+
+### Notes
+1. Please refer to (https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver#required-configuration) to configure your Internet Explorer correctly.
+2. The program will always open a new IE window after program is started. Please keep the IE window always have focus while the program is running. (https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver#browser-focus)
 
 ### Disclaimer
 1. 我是在实验室的小伙伴换课的时候课被别人抢了，实在看不下去才写了这个
@@ -14,7 +18,3 @@ A python program for selecting course automatically on http://grdms.bit.edu.cn ,
 4. 过度使用自动化工具会对服务器造成一定压力，请谨慎使用
 5. 目前还没有进行完整的测试，在一些机器上可能会有很多问题
 6. 因使用这个工具造成的一切后果与作者无关
-
-### Known Problems
-1. 运行时要把x64或x86目录下的exe放到和auto.py同样的路径下
-2. IE浏览器需要把选课页面加入兼容性视图列表中，并且把缩放调到100%
